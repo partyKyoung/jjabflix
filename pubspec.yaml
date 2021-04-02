@@ -55,6 +55,7 @@ flutter:
     - images/movie6.jpeg
     - images/movie7.jpeg
     - images/movie8.jpeg
+    - images/movie9.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.

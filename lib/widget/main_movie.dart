@@ -30,7 +30,7 @@ class _MainMovieState extends State<MainMovie> {
       children: <Widget>[
         Stack(
           children: [
-            new Container(child: Image.asset(poster)),
+            new Container(child: Image.asset(poster, fit: BoxFit.fill, width: double.infinity)),
             new Positioned(
                 bottom: 0,
                 left: 0,
@@ -38,7 +38,7 @@ class _MainMovieState extends State<MainMovie> {
                 child: Container(
                     decoration: BoxDecoration(
                         gradient: LinearGradient(
-                            colors: [Colors.black, Colors.transparent],
+                            colors: [Colors.black,  Colors.black26, Colors.black12],
                             begin: Alignment.bottomCenter,
                             end: Alignment.topCenter)),
                     padding: EdgeInsets.only(left: 10),
